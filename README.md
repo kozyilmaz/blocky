@@ -1,7 +1,9 @@
 # Blocky
 Ethereum based smart contracts for IoT devices
 
-### Install Go
+### Install Dependencies
+
+###### Install Go
 Download precompiled Go binaries from [official project site](https://golang.org/dl)
 
 For x86_64 Linux
@@ -23,7 +25,7 @@ Add path to /etc/profile (for a system-wide installation) or $HOME/.profile
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-### Install Ethereum Client
+###### Install Ethereum Client
 ```
 git clone https://github.com/ethereum/go-ethereum.git
 cd go-ethereum
