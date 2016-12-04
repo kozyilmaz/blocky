@@ -30,7 +30,7 @@ make geth
 sudo cp build/bin/geth /usr/local/bin/geth
 ```
 
-## Create local Ethereum cluster
+## Create Private Ethereum Testnet
 
 ### Resources
 
