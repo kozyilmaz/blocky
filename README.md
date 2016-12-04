@@ -35,9 +35,7 @@ sudo cp build/bin/geth /usr/local/bin/geth
 
 ## Create local Ethereum cluster
 
-Resources:
-
-[Creating a private chain/testnet](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html)
-
+Resources:  
+[Creating a private chain/testnet](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html)  
 [Setting up private network or local cluster](https://github.com/ethereum/go-ethereum/wiki/Setting-up-private-network-or-local-cluster)
 
