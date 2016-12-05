@@ -34,6 +34,19 @@ $ sudo cp build/bin/geth /usr/local/bin/geth
 ## Create Private Ethereum Testnet
 
 ### Resources
+Create a new account for private net
+```
+geth --datadir "~/private-iot-chain" account new
+```
+Create a private chain with custom genesis block
+```
+geth --datadir "~/private-iot-chain" init genesis.json
+```
+Launch geth for private net
+```
+geth --rpc --rpcport "8000" --rpccorsdomain "*" --datadir "~/private-iot-chain" --port "30303" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --identity "zero" --networkid 666 console
+```
+
 
 ###### Ethereum
 * [Creating a private chain/testnet](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html)  
