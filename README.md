@@ -66,7 +66,8 @@ $ geth --rpc --rpcport "8000" --rpccorsdomain "*" --datadir "~/private-iot-chain
 ```
 
 Run ```eth.getBalance(eth.coinbase)``` command to check the account balance, pre-allocated sum should be there
-```> eth.getBalance(eth.coinbase)
+```
+> eth.getBalance(eth.coinbase)
 20000000000000000000
 ```
 Run ```admin.nodeInfo``` to get enode address
