@@ -39,6 +39,23 @@ Create a new account for private net
 $ geth --datadir "~/private-iot-chain" account new
 ```
 Note account number and pre-allocate ether for the new account (i.e. change account address in genesis.json accordingly)
+```
+{
+    "nonce": "0x0000000000000042",
+    "timestamp": "0x0",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "extraData": "0x0",
+    "gasLimit": "0x8000000",
+    "difficulty": "0x400",
+    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "coinbase": "0x3333333333333333333333333333333333333333",
+    "alloc": {
+        "0x80d4dddffd9d1292f16045166aecdaf34b82a0fb": {
+            "balance": "20000000000000000000"
+        }
+    }
+}
+```
 Create a private chain with the custom genesis block
 ```
 $ geth --datadir "~/private-iot-chain" init genesis.json
