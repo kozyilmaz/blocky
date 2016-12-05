@@ -31,6 +31,7 @@ $ make geth
 $ sudo cp build/bin/geth /usr/local/bin/geth
 ```
 
+
 ## Create Private Ethereum Testnet
 
 Create a new account for private net
@@ -74,6 +75,7 @@ Run ```admin.nodeInfo``` to get enode url (enode://xxx) and add ip address of th
 * [Creating a private chain/testnet](https://souptacular.gitbooks.io/ethereum-tutorials-and-tips-by-hudson/content/private-chain.html)  
 * [Setting up an Ethereum testnet](http://billmarino2.github.io/general/2015/12/09/JURIX-2015-setting-up-an-ethereum-testnet.html)  
 * [Setting up private network or local cluster](https://github.com/ethereum/go-ethereum/wiki/Setting-up-private-network-or-local-cluster)
+
 
 
 ## Create Smart Contracts
