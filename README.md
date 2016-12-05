@@ -66,32 +66,9 @@ $ geth --rpc --rpcport "8000" --rpccorsdomain "*" --datadir "~/private-iot-chain
 ```
 
 Run ```eth.getBalance(eth.coinbase)``` command to check the account balance, pre-allocated sum should be there
+Run ```admin.nodeInfo``` to get enode url (enode://xxx) and add ip address of the interface ```[::]``` to construct the complete enode address to share with other peers
 ```
-> eth.getBalance(eth.coinbase)
-20000000000000000000
-```
-Run ```admin.nodeInfo``` to get enode address
-```
-> admin.nodeInfo
-{
-  enode: "enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@[::]:30303?discport=0",
-  id: "6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc",
-  ip: "::",
-  listenAddr: "[::]:30303",
-  name: "Geth/zero/v1.5.5-unstable-2dcf75a7/linux/go1.7.4",
-  ports: {
-    discovery: 0,
-    listener: 30303
-  },
-  protocols: {
-    eth: {
-      difficulty: 1024,
-      genesis: "0x9c0113498bddc141c22cb69520921995226f674bba52683faeabd443bcab2785",
-      head: "0x9c0113498bddc141c22cb69520921995226f674bba52683faeabd443bcab2785",
-      network: 666
-    }
-  }
-}
+"enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303?discport=0"
 ```
 
 
