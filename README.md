@@ -34,6 +34,7 @@ $ sudo cp build/bin/geth /usr/local/bin/geth
 
 ## Create Private Ethereum Testnet
 
+### Setup Node Zero
 Create a new account for private net
 ```
 $ geth --datadir "~/private-iot-chain" account new
@@ -69,6 +70,20 @@ Run ```eth.getBalance(eth.coinbase)``` command to check the account balance, pre
 Run ```admin.nodeInfo``` to get enode url (```enode://xxxxx```) and add ip address of the interface ```[::]``` to construct the complete enode address to share with other peers
 ```
 "enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303?discport=0"
+```
+
+### Setup Node One
+
+Setup second node
+```
+$ geth --datadir "~/private-iot-chain" account new
+$ geth --datadir "~/private-iot-chain" init genesis.json
+$ geth --datadir "~/private-iot-chain" --port "30303" --nodiscover --identity "one" --networkid 666 console
+```
+
+Run ```admin.addPeer``` to connect node zero
+```
+admin.addPeer("enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303")
 ```
 
 ###### Ethereum
