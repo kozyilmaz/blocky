@@ -66,7 +66,7 @@ $ geth --rpc --rpcport "8000" --rpccorsdomain "*" --datadir "~/private-iot-chain
 ```
 
 Run ```eth.getBalance(eth.coinbase)``` command to check the account balance, pre-allocated sum should be there  
-Run ```admin.nodeInfo``` to get enode url (enode://xxx) and add ip address of the interface ```[::]``` to construct the complete enode address to share with other peers
+Run ```admin.nodeInfo``` to get enode url (```enode://xxxxx```) and add ip address of the interface ```[::]``` to construct the complete enode address to share with other peers
 ```
 "enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303?discport=0"
 ```
