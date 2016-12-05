@@ -38,7 +38,7 @@ Create a new account for private net
 ```
 $ geth --datadir "~/private-iot-chain" account new
 ```
-Note account number and pre-allocate ether for the new account (i.e. change account address in genesis.json accordingly)
+Note account number and pre-allocate ether for the new account in genesis.json (i.e. change account address in "alloc" accordingly)
 ```
 {
     "nonce": "0x0000000000000042",
