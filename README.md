@@ -5,6 +5,7 @@ Ethereum based smart contracts for IoT devices
 
 ### Install Go
 Download precompiled Go binaries from [official project site](https://golang.org/dl)
+
 For x86_64 Linux
 ```
 $ curl -O https://storage.googleapis.com/golang/go1.7.4.linux-amd64.tar.gz
