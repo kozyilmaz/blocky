@@ -102,6 +102,17 @@ miner.stop()
 
 ## Create Smart Contracts
 
+To develop smart contract Solidity compiler is needed, ```eth.getCompilers()``` will list available compilers. If solidity is not present, build commands are as follows:
+```
+git clone --recursive https://github.com/ethereum/solidity.git
+cd solidity
+git checkout tags/<tag_name>
+./scripts/install_deps.sh
+mkdir build
+cd build
+cmake .. && make
+```
+
 ###### Smart Contracts
 * [Introduction to Smart Contracts](http://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html)
 
