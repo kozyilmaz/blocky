@@ -83,14 +83,14 @@ $ geth --datadir "~/private-iot-chain" --port "30303" --nodiscover --identity "o
 
 Run ```admin.addPeer``` to connect node zero
 ```
-admin.addPeer("enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303")
+> admin.addPeer("enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303")
 ```
 
 Send ether from node zero to one using one's wallet address. Execute on node zero, do not forget mine transaction into blockchain
 ```
-eth.sendTransaction({from:eth.coinbase, to: '0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c', value: web3.toWei(.000000000001, "ether")})
-miner.start()
-miner.stop()
+> eth.sendTransaction({from:eth.coinbase, to: '0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c', value: web3.toWei(.000000000001, "ether")})
+> miner.start()
+> miner.stop()
 ```
 
 ###### Ethereum
@@ -104,13 +104,13 @@ miner.stop()
 
 To develop smart contract Solidity compiler is needed, ```eth.getCompilers()``` will list available compilers. If solidity is not present, build commands are as follows:
 ```
-git clone --recursive https://github.com/ethereum/solidity.git
-cd solidity
-git checkout tags/<tag_name>
-./scripts/install_deps.sh
-mkdir build
-cd build
-cmake .. && make
+$ git clone --recursive https://github.com/ethereum/solidity.git
+$ cd solidity
+$ git checkout tags/<tag_name>
+$ ./scripts/install_deps.sh
+$ mkdir build
+$ cd build
+$ cmake .. && make
 ```
 
 ###### Smart Contracts
