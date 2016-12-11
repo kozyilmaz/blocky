@@ -118,3 +118,10 @@ IoT vendor replies back to gateway with activate JSON
 > personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
 > bridge.activate('0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c', 'myactivatejson', {from: eth.coinbase})
 ```
+
+IoT gateway watch notified with vendor message
+```javascript
+> I1212 01:01:39.107765 core/blockchain.go:1047] imported 1 blocks,     1 txs (  0.027 Mg) in   5.203ms ( 5.210 Mg/s). #415 [e77abb96…]
+[0x0123456789abcdef] MSG[myactivatejson] FROM[0xdcd88ddb31d688b6ae73048969c4ab2e587c0087] TO[0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c]
+```
+
