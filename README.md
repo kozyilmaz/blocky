@@ -262,6 +262,10 @@ Following command should be executed on node one:
 Paragraph and line breaks should be removed from CONTRACT_ABI, [this site](http://www.textfixer.com/tools/remove-line-breaks.php) can be used to do it
 ```javascript
 > var store_on_blockchain = eth.contract([{ constant: false, inputs: [{ name: "x", type: "uint256" }], name: "set", outputs: [], payable: false, type: "function" }, { constant: true, inputs: [], name: "get", outputs: [{ name: "", type: "uint256" }], payable: false, type: "function" }]).at("0x366e0869aea00583c5a5ff62309214707d82e60c");
+```
+
+From now on Node one can use deployed smart contract
+```
 > personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
 true
 > store_on_blockchain.set(1234,{from: eth.coinbase, gas: 3000000})
