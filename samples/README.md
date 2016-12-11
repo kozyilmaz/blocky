@@ -113,4 +113,8 @@ IoT vendor watch notified with gateway message
 [0xdeadbeefb00b1e56] MSG[myjsonstring] FROM[0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c]
 ```
 
-
+IoT vendor replies back to gateway with activate JSON
+```javascript
+> personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
+> bridge.activate('0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c', 'myactivatejson', {from: eth.coinbase})
+```
