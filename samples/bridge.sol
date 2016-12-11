@@ -38,7 +38,7 @@ contract Bridge {
     // funds back to creator
     function kill() {
         if (msg.sender == creator) {
-            suicide(creator);
+            selfdestruct(creator);
         }
     }
 }
