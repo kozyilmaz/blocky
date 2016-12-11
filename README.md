@@ -104,8 +104,7 @@ Send ether from node zero to one using one's wallet address. Execute on node zer
 ## Create Smart Contracts
 
 ### Install Solidity Compiler
-To develop smart contracts Solidity compiler is needed. Either [Solidity online compiler](https://ethereum.github.io/browser-solidity) or internal/offline compiler should be used  
-Console command ```eth.getCompilers()``` will list available offline compilers, if solidity is not present, build commands are as follows:
+To develop smart contracts Solidity compiler is needed. Either [Solidity online compiler](https://ethereum.github.io/browser-solidity) or internal/offline compiler should be used. Console command ```eth.getCompilers()``` will list available offline compilers, if solidity is not present, build commands are as follows:
 ```
 $ git clone --recursive https://github.com/ethereum/solidity.git
 $ cd solidity
