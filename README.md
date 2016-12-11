@@ -202,6 +202,30 @@ Now contract is rady for interaction
 }
 ```
 
+Use ```store.get()`` and ```store.set()``` to print and modify stored data
+```
+> store.get()
+0
+> personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
+
+true
+> store.set(42,{from: eth.coinbase, gas: 3000000})
+I1211 14:58:32.122266 internal/ethapi/api.go:1047] Tx(0x18287c995d686f9fa2bee9136e4b0d92d0d5d0121145eaeba849fd6218a923f0) to: 0x366e0869aea00583c5a5ff62309214707d82e60c
+"0x18287c995d686f9fa2bee9136e4b0d92d0d5d0121145eaeba849fd6218a923f0"
+> 
+> store.get()
+0
+> miner.start()
+true
+> I1211 14:58:42.441663 miner/miner.go:137] Starting mining operation (CPU=2 TOT=3)
+I1211 14:58:42.446231 miner/worker.go:563] commit new work on block 273 with 1 txs & 0 uncles. Took 4.515457ms
+I1211 14:58:42.723401 miner/worker.go:362] 🔨  Mined block (#273 / 54a33c4b). Wait 5 blocks for confirmation
+....
+> miner.stop()
+true
+> store.get()
+42
+```
 
 ###### Smart Contracts
 * [Introduction to Smart Contracts](http://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html)
