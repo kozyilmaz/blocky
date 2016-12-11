@@ -117,7 +117,7 @@ $ cmake .. && make
 
 ### Create and Deploy Smart Contracts
 Below is a sample smart contract which get/set a variable.
-```
+```javascript
 pragma solidity ^0.4.0;
 
 contract store {
@@ -133,7 +133,7 @@ contract store {
 }
 ```
 For ease of use [Solidity online compiler](https://ethereum.github.io/browser-solidity) will be used. Copy the sample contract into code window and it will generate corresponding ```web3``` code (right panel) which should be copied into ```store.js``` file
-```
+```javascript
 var storeContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"}]);
 var store = storeContract.new(
    {
@@ -176,7 +176,7 @@ true
 ```
 
 Now contract is ready to be used
-```
+```javascript
 > store
 {
   abi: [{
