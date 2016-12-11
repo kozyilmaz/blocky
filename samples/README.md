@@ -5,11 +5,7 @@ Ethereum based smart contract samples
 Import contract
 ```javascript
 > personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
-true
 > loadScript('bridge.js');
-I1212 00:09:54.484559 internal/ethapi/api.go:1045] Tx(0x94075470292dfe99dfe933ba3e330a049630cf5f767c9afb46632ed4090f4cad) created: 0x3b26e8bd43effdcc0ce824c6bc29d40bac3b5aad
-null [object Object]
-true
 ```
 
 Deploy to blockchain
@@ -108,20 +104,13 @@ event_process.watch(function(error, result){
 IoT Gateway sends a message to IoT vendor via blockchain (either activation request or data)
 ```javascript
 > personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
-true
 > bridge_on_blockchain.request('myjsonstring',{from: eth.coinbase})
-I1212 00:46:01.687701 internal/ethapi/api.go:1047] Tx(0x61e3f2b44d51de0168966e44e2d1bf22054fad50bf48ca8ecb2b16626751fc86) to: 0x3b26e8bd43effdcc0ce824c6bc29d40bac3b5aad
-"0x61e3f2b44d51de0168966e44e2d1bf22054fad50bf48ca8ecb2b16626751fc86"
 ```
 
 IoT vendor watch notified with gateway message
 ```javascript
 > I1212 00:46:18.675648 core/blockchain.go:1047] imported 1 blocks,     1 txs (  0.025 Mg) in  10.235ms ( 2.454 Mg/s). #407 [08be0754…]
-I1212 00:46:18.960413 core/blockchain.go:1047] imported 1 blocks,     0 txs (  0.000 Mg) in   9.505ms ( 0.000 Mg/s). #408 [16c4683e…]
-I1212 00:46:18.969545 core/blockchain.go:1047] imported 1 blocks,     0 txs (  0.000 Mg) in   8.578ms ( 0.000 Mg/s). #408 [86f92da9…]
 [0xdeadbeefb00b1e56] MSG[myjsonstring] FROM[0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c]
-I1212 00:46:20.049817 core/blockchain.go:1047] imported 1 blocks,     0 txs (  0.000 Mg) in   6.588ms ( 0.000 Mg/s). #409 [fd02e772…]
-I1212 00:46:20.973832 core/blockchain.go:1047] imported 1 blocks,     0 txs (  0.000 Mg) in  12.712ms ( 0.000 Mg/s). #410 [83942e5d…]
 ```
 
 
