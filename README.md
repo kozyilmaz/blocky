@@ -175,7 +175,7 @@ I1211 14:29:28.337054 miner/worker.go:458] 🔨 🔗  Mined 5 blocks back: block
 true
 ```
 
-Now contract is rady for interaction
+Now contract is ready to be used
 ```
 > store
 {
