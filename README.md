@@ -7,24 +7,24 @@ Ethereum based smart contracts for IoT devices
 Download precompiled Go binaries from [official project site](https://golang.org/dl)
 
 For x86_64 Linux
-```
+```javascript
 $ curl -O https://storage.googleapis.com/golang/go1.7.4.linux-amd64.tar.gz
 ```
 For Raspberry Pi Linux
-```
+```javascript
 $ curl -O https://storage.googleapis.com/golang/go1.7.4.linux-armv6l.tar.gz
 ```
 Install Go binaries
-```
+```javascript
 $ sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 ```
 Add path to /etc/profile (for a system-wide installation) or $HOME/.profile
-```
+```javascript
 $ export PATH=$PATH:/usr/local/go/bin
 ```
 
 ### Install Ethereum Client
-```
+```javascript
 $ git clone https://github.com/ethereum/go-ethereum.git
 $ cd go-ethereum
 $ make geth
@@ -36,7 +36,7 @@ $ sudo cp build/bin/geth /usr/local/bin/geth
 
 ### Setup Node Zero
 Create a new account for private net
-```
+```javascript
 $ geth --datadir "~/private-iot-chain" account new
 ```
 Note account number and pre-allocate ether for the new account in genesis.json (i.e. change account address in "alloc" accordingly)
@@ -82,12 +82,12 @@ $ geth --datadir "~/private-iot-chain" --port "30303" --nodiscover --identity "o
 ```
 
 Run ```admin.addPeer``` to connect node zero
-```
+```javascript
 > admin.addPeer("enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303")
 ```
 
 Send ether from node zero to one using one's wallet address. Execute on node zero, do not forget mine transaction
-```
+```javascript
 > personal.unlockAccount(eth.coinbase)
 > eth.sendTransaction({from:eth.coinbase, to: '0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c', value: web3.toWei(.000000000001, "ether")})
 > miner.start()
@@ -105,7 +105,7 @@ Send ether from node zero to one using one's wallet address. Execute on node zer
 
 ### Install Solidity Compiler
 To develop smart contracts Solidity compiler is needed. Either [Solidity online compiler](https://ethereum.github.io/browser-solidity) or internal/offline compiler should be used. Console command ```eth.getCompilers()``` will list available offline compilers, if solidity is not present, build commands are as follows:
-```
+```javascript
 $ git clone --recursive https://github.com/ethereum/solidity.git
 $ cd solidity
 $ git checkout tags/<tag_name>
@@ -149,7 +149,7 @@ var store = storeContract.new(
 ```
 
 Copied ```store.js``` file can be loaded via console (do not forget to ```personal.unlockAccount()```)
-```
+```javascript
 > loadScript('store.js');
 I1211 14:28:58.352087 internal/ethapi/api.go:1045] Tx(0x6a774d17b83dfaf96b1a233107f8b2fa43f7411a71e87d273403b8a9e7efe254) created: 0x366e0869aea00583c5a5ff62309214707d82e60c
 null [object Object]
@@ -157,7 +157,7 @@ true
 ```
 
 Contract is loaded however it should be mined to get deployed.
-```
+```javascript
 > miner.start()
 true
 > I1211 14:29:25.804431 miner/miner.go:137] Starting mining operation (CPU=2 TOT=3)
@@ -203,7 +203,7 @@ Now contract is ready to be used
 ```
 
 Use ```store.get()``` and ```store.set()``` to print and modify stored data
-```
+```javascript
 > store.get()
 0
 > personal.unlockAccount(eth.coinbase, YOUR_PASSWORD)
