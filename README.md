@@ -1,7 +1,7 @@
 # Blocky
 Ethereum based smart contracts for IoT devices  
 
-Quick Links:
+###### Quick Links
 [Install Dependencies](#install-dependencies)  
 [Create Private Ethereum Testnet](#create-private-ethereum-testnet)  
 [Create Smart Contracts](#create-smart-contracts)  
