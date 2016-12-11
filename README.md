@@ -7,15 +7,15 @@ Ethereum based smart contracts for IoT devices
 Download precompiled Go binaries from [official project site](https://golang.org/dl)
 
 For x86_64 Linux
-```shell
+```
 $ curl -O https://storage.googleapis.com/golang/go1.7.4.linux-amd64.tar.gz
 ```
 For Raspberry Pi Linux
-```javascript
+```
 $ curl -O https://storage.googleapis.com/golang/go1.7.4.linux-armv6l.tar.gz
 ```
 Install Go binaries
-```javascript
+```
 $ sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 ```
 Add path to /etc/profile (for a system-wide installation) or $HOME/.profile
