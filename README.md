@@ -40,7 +40,7 @@ Create a new account for private net
 $ geth --datadir "~/private-iot-chain" account new
 ```
 Note account number and pre-allocate ether for the new account in genesis.json (i.e. change account address in "alloc" accordingly)
-```
+```javascript
 {
     "nonce": "0x0000000000000042",
     "timestamp": "0x0",
@@ -58,24 +58,24 @@ Note account number and pre-allocate ether for the new account in genesis.json (
 }
 ```
 Create a private chain with the custom genesis block
-```
+```javascript
 $ geth --datadir "~/private-iot-chain" init genesis.json
 ```
 Launch geth for private net
-```
+```javascript
 $ geth --rpc --rpcport "8000" --rpccorsdomain "*" --datadir "~/private-iot-chain" --port "30303" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --identity "zero" --networkid 666 console
 ```
 
 Run ```eth.getBalance(eth.coinbase)``` command to check the account balance, pre-allocated sum should be there  
 Run ```admin.nodeInfo``` to get enode url (```enode://xxxxx```) and add ip address of the interface ```[::]``` to construct the complete enode address to share with other peers
-```
+```javascript
 "enode://6ad5934db83a0266c4c6d5048d02f86b3e69251d45ad411387cde9cc5a86030f2bee4bcbe200d4238d91b01c94444e562986058c9c4acca2a92cb81eb012acfc@192.168.2.41:30303?discport=0"
 ```
 
 ### Setup Node One
 
 Setup second one which is a second computer on our net
-```
+```javascript
 $ geth --datadir "~/private-iot-chain" account new
 $ geth --datadir "~/private-iot-chain" init genesis.json
 $ geth --datadir "~/private-iot-chain" --port "30303" --nodiscover --identity "one" --networkid 666 console
