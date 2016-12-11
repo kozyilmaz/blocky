@@ -1,12 +1,19 @@
 pragma solidity ^0.4.0;
 
 contract Bridge {
+    // contract owner
+    address public creator;
 
-    address creator;
-
+    // IoT vendor event handler
     event Notify(
-        address indexed _from,
-        string  _value
+        address indexed from,
+        string message
+    );
+    // IoT gateway event handler
+    event Process(
+        address indexed from,
+        address indexed to,
+        string message
     );
 
     // This is the constructor whose code is
@@ -16,20 +23,20 @@ contract Bridge {
     }
 
     // This is the message from IoT gateway to vendor node
-    // either to request activation or push data
+    // either to request activation or push data (broadcast)
     function request(string data) {
         Notify(msg.sender, data);
     }
 
     // This is the message from vendor node to IoT gateway
-    // to proceed with activation
-    function activate(address gateway_address, string data) {
-        Notify(msg.sender, data);
+    // to proceed with activation (unicast)
+    function activate(address gateway, string data) {
+        Process(msg.sender, gateway, data);
     }
 
+    // Kills this contract and sends remaining
+    // funds back to creator
     function kill() {
-        // kills this contract and sends remaining
-        // funds back to creator
         if (msg.sender == creator) {
             suicide(creator);
         }
