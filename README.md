@@ -88,6 +88,7 @@ Run ```admin.addPeer``` to connect node zero
 
 Send ether from node zero to one using one's wallet address. Execute on node zero, do not forget mine transaction
 ```
+> personal.unlockAccount(eth.coinbase)
 > eth.sendTransaction({from:eth.coinbase, to: '0xcb2a95f964acf8adee7fae30cf5dc6a3f5e14a5c', value: web3.toWei(.000000000001, "ether")})
 > miner.start()
 > miner.stop()
@@ -103,7 +104,8 @@ Send ether from node zero to one using one's wallet address. Execute on node zer
 ## Create Smart Contracts
 
 ### Install Solidity Compiler
-To develop smart contract Solidity compiler is needed, ```eth.getCompilers()``` will list available compilers. If solidity is not present, build commands are as follows:
+To develop smart contracts Solidity compiler is needed. Either [Solidity online compiler](https://ethereum.github.io/browser-solidity) or internal/offline compiler should be used.
+Console command ```eth.getCompilers()``` will list available offline compilers. If solidity is not present, build commands are as follows:
 ```
 $ git clone --recursive https://github.com/ethereum/solidity.git
 $ cd solidity
@@ -113,6 +115,9 @@ $ mkdir build
 $ cd build
 $ cmake .. && make
 ```
+
+### Create and Deploy Smart Contracts
+https://ethereum.github.io/browser-solidity
 
 ###### Smart Contracts
 * [Introduction to Smart Contracts](http://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html)
