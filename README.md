@@ -202,7 +202,7 @@ Now contract is rady for interaction
 }
 ```
 
-Use ```store.get()`` and ```store.set()``` to print and modify stored data
+Use ```store.get()``` and ```store.set()``` to print and modify stored data
 ```
 > store.get()
 0
