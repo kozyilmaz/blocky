@@ -81,7 +81,7 @@ Export contract on another node
 ```
 
 ## Preparing Nodes
-IoT vendor starts watching for Notify() events (i.e IoT gateway message)
+IoT vendor starts watching for ```Notify()``` events (i.e IoT gateway message)
 ```javascript
 var event_notify = bridge.Notify();
 event_notify.watch(function(error, result){
@@ -91,7 +91,7 @@ event_notify.watch(function(error, result){
 });
 ```
 
-IoT Gateway starts watching for Process() events (i.e. IoT vendor messages)
+IoT Gateway starts watching for ```Process()``` events (i.e. IoT vendor messages)
 ```javascript
 var event_process = bridge.Process();
 event_process.watch(function(error, result){
