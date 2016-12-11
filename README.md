@@ -227,7 +227,7 @@ true
 42
 ```
 
-In order to access contract from another node (node one) and modify data, contract ABI and ADDRESS should be known. This info can get acquired via commands below.
+In order to access contract from another node (node one) and modify data, contract ABI and ADDRESS should be known. This info can be acquired via commands below on node zero.
 ```javascript
 > store.abi
 [{
