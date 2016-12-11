@@ -282,4 +282,4 @@ I1211 17:39:00.704042 internal/ethapi/api.go:1047] Tx(0x30b562bad71cf67ea4cbf24a
 
 ###### Smart Contracts
 * [Introduction to Smart Contracts](http://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html)
-
+* [Smart Contract Events](http://solidity.readthedocs.io/en/latest/contracts.html#events)

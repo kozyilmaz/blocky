@@ -19,3 +19,11 @@ To export
 ```
 
 To run
+
+
+
+
+
+
+
+var bridge_00 = eth.contract([{ constant: false, inputs: [{ name: "data", type: "string" }], name: "request", outputs: [], payable: false, type: "function" }, { constant: false, inputs: [], name: "kill", outputs: [], payable: false, type: "function" }, { constant: false, inputs: [{ name: "gateway_address", type: "address" }, { name: "data", type: "string" }], name: "activate", outputs: [], payable: false, type: "function" }, { inputs: [], payable: false, type: "constructor" }, { anonymous: false, inputs: [{ indexed: true, name: "_from", type: "address" }, { indexed: false, name: "_value", type: "string" }], name: "Notify", type: "event" }] ).at("0x166358685f493bb5fb3eb3bd7cdc7576e8d8230a");
