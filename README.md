@@ -132,7 +132,7 @@ contract store {
     }
 }
 ```
-For ease of use [Solidity online compiler](https://ethereum.github.io/browser-solidity) will be used. Copy the sample contract into code window and it will generate corresponding ```web3``` code which should be copied into ```store.js``` file
+For ease of use [Solidity online compiler](https://ethereum.github.io/browser-solidity) will be used. Copy the sample contract into code window and it will generate corresponding ```web3``` code (right panel) which should be copied into ```store.js``` file
 ```
 var storeContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"}]);
 var store = storeContract.new(
@@ -147,6 +147,61 @@ var store = storeContract.new(
     }
  })
 ```
+
+Copied ```store.js``` file can be loaded via console (do not forget to ```personal.unlockAccount()```)
+```
+> loadScript('store.js');
+I1211 14:28:58.352087 internal/ethapi/api.go:1045] Tx(0x6a774d17b83dfaf96b1a233107f8b2fa43f7411a71e87d273403b8a9e7efe254) created: 0x366e0869aea00583c5a5ff62309214707d82e60c
+null [object Object]
+true
+```
+
+Contract is loaded however it should be mined to get deployed.
+```
+> miner.start()
+true
+> I1211 14:29:25.804431 miner/miner.go:137] Starting mining operation (CPU=2 TOT=3)
+I1211 14:29:25.808925 miner/worker.go:563] commit new work on block 271 with 1 txs & 0 uncles. Took 4.445739ms
+I1211 14:29:26.362327 miner/worker.go:362] 🔨  Mined block (#271 / 1fb173c0). Wait 5 blocks for confirmation
+I1211 14:29:26.362897 miner/worker.go:563] commit new work on block 272 with 0 txs & 0 uncles. Took 264.496µs
+I1211 14:29:26.363044 miner/worker.go:458] 🔨 🔗  Mined 5 blocks back: block #266
+null [object Object]
+Contract mined! address: 0x366e0869aea00583c5a5ff62309214707d82e60c transactionHash: 0x6a774d17b83dfaf96b1a233107f8b2fa43f7411a71e87d273403b8a9e7efe254
+I1211 14:29:28.336365 miner/worker.go:362] 🔨  Mined block (#272 / f58ea260). Wait 5 blocks for confirmation
+I1211 14:29:28.336902 miner/worker.go:563] commit new work on block 273 with 0 txs & 0 uncles. Took 229.156µs
+I1211 14:29:28.337054 miner/worker.go:458] 🔨 🔗  Mined 5 blocks back: block #267
+
+> miner.stop()
+true
+```
+
+Now contract is rady for interaction
+```
+> store
+{
+  abi: [{
+      constant: false,
+      inputs: [{...}],
+      name: "set",
+      outputs: [],
+      payable: false,
+      type: "function"
+  }, {
+      constant: true,
+      inputs: [],
+      name: "get",
+      outputs: [{...}],
+      payable: false,
+      type: "function"
+  }],
+  address: "0x366e0869aea00583c5a5ff62309214707d82e60c",
+  transactionHash: "0x6a774d17b83dfaf96b1a233107f8b2fa43f7411a71e87d273403b8a9e7efe254",
+  allEvents: function(),
+  get: function(),
+  set: function()
+}
+```
+
 
 ###### Smart Contracts
 * [Introduction to Smart Contracts](http://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html)
