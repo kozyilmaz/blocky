@@ -1,8 +1,8 @@
 # Blocky
-Ethereum based smart contracts for IoT devices
-[create an anchor](#install-dependencies)
-https://github.com/kozyilmaz/blocky#install-ethereum-client
-https://github.com/kozyilmaz/blocky#install-dependencies
+Ethereum based smart contracts for IoT devices  
+[Install Dependencies](#install-dependencies)  
+[Create Private Ethereum Testnet](#create-private-ethereum-testnet)  
+[Create Smart Contracts](#create-smart-contracts)  
 
 ## Install Dependencies
 
