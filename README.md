@@ -227,7 +227,7 @@ true
 42
 ```
 
-Access contract from another node (node one) and modify data
+In order access contract from another node (node one) and modify data, contract ABI and ADDRESS should be known. Line breaks and This info should be given to node one
 ```javascript
 > store.abi
 [{
@@ -253,31 +253,10 @@ Access contract from another node (node one) and modify data
 }]
 > store.address
 "0x366e0869aea00583c5a5ff62309214707d82e60c"
+```
 
-var store_on_blockchain = eth.contract(CONTRACT_ABI).at(CONTRACT_ADDRESS);
-
-var store_on_blockchain = eth.contract([{
-    constant: false,
-    inputs: [{
-        name: "x",
-        type: "uint256"
-    }],
-    name: "set",
-    outputs: [],
-    payable: false,
-    type: "function"
-}, {
-    constant: true,
-    inputs: [],
-    name: "get",
-    outputs: [{
-        name: "",
-        type: "uint256"
-    }],
-    payable: false,
-    type: "function"
-}]).at("0x366e0869aea00583c5a5ff62309214707d82e60c");
-
+Following command should be executed on node one ```var store_on_blockchain = eth.contract(CONTRACT_ABI).at(CONTRACT_ADDRESS);```. Paragraph and line breaks should be removed from CONTRACT_ABI
+```
 var store_on_blockchain = eth.contract([{ constant: false, inputs: [{ name: "x", type: "uint256" }], name: "set", outputs: [], payable: false, type: "function" }, { constant: true, inputs: [], name: "get", outputs: [{ name: "", type: "uint256" }], payable: false, type: "function" }]).at("0x366e0869aea00583c5a5ff62309214707d82e60c");
 ```
 
