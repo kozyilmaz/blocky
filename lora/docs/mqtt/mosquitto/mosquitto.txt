@@ -1,0 +1,9 @@
+How To
+======
+Mosquitto is a MQTT protocol server implementation, you may find it here:
+https://github.com/eclipse/mosquitto.git
+
+For Ubuntu variants please get the packages below:
+# sudo apt-get install mosquitto-dev
+# sudo apt-get install libmosquitto-dev
+# sudo apt-get install mosquitto-clients

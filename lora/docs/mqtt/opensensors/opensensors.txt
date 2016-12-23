@@ -1,0 +1,5 @@
+How To
+======
+- Create account with OpenSensors at https://www.opensensors.io
+- Create a device (LoRa Proxy in our case)
+- Create a MQTT topic

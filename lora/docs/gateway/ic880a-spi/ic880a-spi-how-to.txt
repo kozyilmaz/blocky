@@ -1,0 +1,36 @@
+RPi image on OSX
+================
+diskutil list
+diskutil unmountDisk /dev/disk1
+sudo dd bs=1m if=2016-05-27-raspbian-jessie.img of=/dev/rdisk1
+
+
+RPi Prep
+========
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install wiringpi
+$ sudo raspi-config
+Advanced Options (9)
+SPI (A5)
+Enable (Yes)
+Expand Filesystem (1)
+Yes
+$ sudo dpkg-reconfigure locales
+$ sudo dpkg-reconfigure tzdata
+$ sudo apt-get install git
+
+
+iC880 Connection
+================
+https://pinout.xyz/pinout/spi
+https://github.com/ttn-zh/ic880a-gateway/wiki
+
+		RPI <=> IC880
++5V	.........2.......21
+GND	.........6.......22
+Reset	.........22......13
+SCLK	.........23......14
+MISO	.........21......15
+MOSI	.........19......16
+NSS	.........24......17

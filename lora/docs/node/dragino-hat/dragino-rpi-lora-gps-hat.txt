@@ -1,0 +1,28 @@
+Docs
+====
+Wiki
+----
+http://wiki.dragino.com/index.php?title=Lora/GPS_HAT
+https://github.com/dragino/Lora.git
+
+IBM's LMIC library port, works with WiringPi
+--------------------------------------------
+https://github.com/ernstdevreede/lmic_pi
+
+Dragino setup for single channel packet forwarder
+-------------------------------------------------
+https://github.com/tftelkamp/single_chan_pkt_fwd
+
+RPi pinouts
+-----------
+http://wiringpi.com/pins/
+https://pinout.xyz
+
+
+Connection
+==========
+Soldering of a two pin header (below) is necessary for Dragino Hat v1.0
+
+RPi --------------- Lora/GPS HAT
+WiringPi pin 4 ---- DIO1
+WiringPi pin 5 ---- DIO2
