@@ -11,7 +11,7 @@ Deploy to blockchain
 ```javascript
 > miner.start()
 ...
-Contract mined! address: 0x3b26e8bd43effdcc0ce824c6bc29d40bac3b5aad transactionHash: 0x94075470292dfe99dfe933ba3e330a049630cf5f767c9afb46632ed4090f4cad
+Contract mined! address: 0x6ac7c9caeef8b05decb99e8ca6d74ca8863d5a52 transactionHash: 0x198e813c50a18c52cab49c77ba0188ad678f027630d186ad482c0249cfcdb9c1
 ...
 > miner.stop()
 ```
@@ -63,8 +63,8 @@ Check contract status
       name: "Process",
       type: "event"
   }],
-  address: "0x3b26e8bd43effdcc0ce824c6bc29d40bac3b5aad",
-  transactionHash: "0x94075470292dfe99dfe933ba3e330a049630cf5f767c9afb46632ed4090f4cad",
+  address: "0x6ac7c9caeef8b05decb99e8ca6d74ca8863d5a52",
+  transactionHash: "0x198e813c50a18c52cab49c77ba0188ad678f027630d186ad482c0249cfcdb9c1",
   Notify: function(),
   Process: function(),
   activate: function(),
@@ -77,7 +77,7 @@ Check contract status
 
 Export contract on another node
 ```javascript
-> var bridge_on_blockchain = eth.contract([{ constant: true, inputs: [], name: "creator", outputs: [{ name: "", type: "address" }], payable: false, type: "function" }, { constant: false, inputs: [{ name: "data", type: "string" }], name: "request", outputs: [], payable: false, type: "function" }, { constant: false, inputs: [], name: "kill", outputs: [], payable: false, type: "function" }, { constant: false, inputs: [{ name: "gateway", type: "address" }, { name: "data", type: "string" }], name: "activate", outputs: [], payable: false, type: "function" }, { inputs: [], payable: false, type: "constructor" }, { anonymous: false, inputs: [{ indexed: true, name: "from", type: "address" }, { indexed: false, name: "message", type: "string" }], name: "Notify", type: "event" }, { anonymous: false, inputs: [{ indexed: true, name: "from", type: "address" }, { indexed: true, name: "to", type: "address" }, { indexed: false, name: "message", type: "string" }], name: "Process", type: "event" }] ).at("0x3b26e8bd43effdcc0ce824c6bc29d40bac3b5aad");
+> var bridge_on_blockchain = eth.contract([{ constant: true, inputs: [], name: "creator", outputs: [{ name: "", type: "address" }], payable: false, type: "function" }, { constant: false, inputs: [{ name: "data", type: "string" }], name: "request", outputs: [], payable: false, type: "function" }, { constant: false, inputs: [], name: "kill", outputs: [], payable: false, type: "function" }, { constant: false, inputs: [{ name: "gateway", type: "address" }, { name: "data", type: "string" }], name: "activate", outputs: [], payable: false, type: "function" }, { inputs: [], payable: false, type: "constructor" }, { anonymous: false, inputs: [{ indexed: true, name: "from", type: "address" }, { indexed: false, name: "message", type: "string" }], name: "Notify", type: "event" }, { anonymous: false, inputs: [{ indexed: true, name: "from", type: "address" }, { indexed: true, name: "to", type: "address" }, { indexed: false, name: "message", type: "string" }], name: "Process", type: "event" }] ).at("0x6ac7c9caeef8b05decb99e8ca6d74ca8863d5a52");
 ```
 
 ## Preparing Nodes
