@@ -1,0 +1,469 @@
+pi@raspberrypi:~/devel/lora/source $ ./lora_proxy 
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAAgABlf/RRAgzAi40xIoSoRAdmwV/Lk4=
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (112 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:47:24 GMT
+   number of packets received  : 2
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAAwABByB89bJSh0Vdry4WQ6llBRdgzSI=
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesABAABYwMb7d05YuTl93+y6UMdQVs9TFY=
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:47:54 GMT
+   number of packets received  : 3
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesABQABBjRnT+L2khXwNQF8qiVcqAeprwU=
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:48:24 GMT
+   number of packets received  : 2
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesABgABrXX7gixtU3/E03SAdViOWmNX5lM=
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesABwABS/SNsOoDDEt7UGU11M3YBtgz4E0=
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:48:54 GMT
+   number of packets received  : 3
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesACAABpU2rfPL/lpAnlPsM4CHZ7ztQsbA=
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:49:24 GMT
+   number of packets received  : 2
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesACQABnnbnnnySKPw2OhyN1stqXHFXDhU=
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesACgABY4RU0+Wi7lEf33bWF476H+uHCeYK
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:49:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesACwABFq/JrhQR/1jEZBJgWxekfKsqx82L
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:50:24 GMT
+   number of packets received  : 2
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesADAABCShMTXXJRAPAn3HvqcGEhDVh4BBQ
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesADQABc3pb7kehisReGAZH3vzmoQArKeSW
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:50:54 GMT
+   number of packets received  : 3
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesADgAB89DtcSUm6xU/l656IJUYx3O0Xipw
+
+
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:51:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesADwAB8Zj2V5Mg8QEN7B8daDB7dP1NrIVy
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAEAABUej71Xwp+JDvyNvqx9jvFEt/0mVB
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:51:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAEQABdsGJYtInm/8qU8CUj1BT7g2wdAvd
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:52:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAEgABSwrWTI6BjSJ5h9u3R2FHBqsFdUsz
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAEwABPckzO0RzpzgMtNm65A+6Y218Ny96
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:52:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAFAAB5dIVULIe6yO8WTMnQ2UTh69cmdDe
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:53:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAFQABHsrUqIWqjM0ITM1fGa1xe2UnBQ0o
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAFgABufKdeFOIClIhzGP/6AaM+CEPwDZH
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:53:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAFwABzHQF1Kd1BOM3wrI3qF2OgchnR9aZ
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:54:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAGAABYiGeLSWwGOCg6+4C7oAkD10SAf9i
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAGQABzMvrAGNU4soVq9dr4Mjd6zeBk6m1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:54:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAGgABt3fvHcXMUTwZAk2Y2Q9CNzQN1Khf
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:55:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAGwABJ5nWvNabRNgk3Od4zTn6m9PzhM0e
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAHAABsiPKezADbG7iKQPlvgX1T5cXHHWx
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:55:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAHQABBPmhyndzO+z4GTM/cmchWEbYgyQD
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:56:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAHwABGndHM1pOFW7ytdP1hp2K1k2NK87Z
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:56:54 GMT
+   number of packets received  : 3
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAIAAB4PGZV2FTbOKanFXpzqy+o9ePcERf
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:57:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAIQABA0Ot8kNdxGpii5M7Q2Fo7eaARB+c
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAIgABPVf2Fc8/ZiIsPOXeKym2ukzFRBGQ
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:57:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAIwABtC2oa3oXPBA29qGrH/x57lLU1VVT
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:58:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAJAABTzgtJeiMPC+GtKuOfoT0i9+vCdz1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAJQABbGNVN/5XHy4HxJYDiYDsKMNYbRjW
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:58:54 GMT
+   number of packets received  : 3
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAJgAB1qSVldOkq4wpaB/gRCr+uFpuH7Vr
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:59:24 GMT
+   number of packets received  : 2
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAJwAB82ckGaJ9bXzhu1D+qGVDFId36R7R
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAKAABKaJ4axwYeLWkAHXpj3fWMfSsPtMt
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 12:59:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAKQABcQHYEHgewmZ2UxPKk9dhQ2QUTxbg
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:00:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAKgABPmqJZ1GjRzQXXYsGJbY88IpuUqlK
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesAKwABULJ+jsLwx9q4zBBJNQVqNN0v6cYk
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:00:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesALAABxbsLADRGc6qAgKVFkATkPaz+A5n8
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:01:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesALQAB+pFpY4SE/3lhVaXvb1k/lfF7jcag
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (212 bytes)
+LoRa node data: QP1kNesALgABZX6ZwW1QGaPJt+4bf3OP0tJgjcdb
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:01:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (214 bytes)
+LoRa node data: QP1kNesALwAB7LQiQFopbcetnvnmM1O66nw+Q5h6
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:02:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAMAABeU244tKVyvOp9AvCJfXWT/8wWPXA
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (214 bytes)
+LoRa node data: QP1kNesAMQABrL4i3ePJrxP3nY+Y8Buar2/4HJwf
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:02:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAMgABmM3E071a8Wxcy/A518sw/MCW38vv
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:03:24 GMT
+   number of packets received  : 2
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAMwABunRSFp4q2Et9zgUDMQRSe/LhioIy
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (214 bytes)
+LoRa node data: QP1kNesANAAB1Nd7ohtCjZ6lNd0w7eNMk7YHNvDF
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:03:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesANQABMViHwySVqYxUADsevFeqipG97M27
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:04:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesANgABqJ14tm2WpFNg4GBzLNCD/FZjB3Q4
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesANwAB6pf7EHVfZ65Abq5pPGoL9OPrMqg8
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:04:54 GMT
+   number of packets received  : 2
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAOAABA3NwdWkAc7GBy/zjIiZEY7U0g1WI
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:05:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAOQABq4iiD9eBDvOHAt/qEx57fqw4fvpq
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAOgAB9maFu+KR6T2E7uZ+14lr4eTEtwUv
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:05:54 GMT
+   number of packets received  : 3
+   number of valid packets     : 2
+   number of packets forwarded : 2
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (213 bytes)
+LoRa node data: QP1kNesAOwABWsYxiF4t8XnFa2eCQykOtyRIv4ur
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (113 bytes)
+LoRa gateway stats:
+   gateway system time         : 2016-12-23 13:06:24 GMT
+   number of packets received  : 1
+   number of valid packets     : 1
+   number of packets forwarded : 1
+PULL_DATA from gateway 0xAA555A0000000101 @localhost:59540
+PUSH_DATA from gateway 0xAA555A0000000101 @localhost:41924 (214 bytes)
+LoRa node data: QP1kNesAPAABEuHfC6Qnz2rYnV4DbtMMjhe/2+iP
+

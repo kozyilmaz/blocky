@@ -1,0 +1,12 @@
+top - 13:25:33 up  1:19,  6 users,  load average: 0,01, 0,05, 0,07
+Tasks:   3 total,   0 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0,6 us,  0,4 sy,  0,0 ni, 99,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem:    947740 total,   405644 used,   542096 free,    34440 buffers
+KiB Swap:   102396 total,        0 used,   102396 free.   170884 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                
+ 1867 pi        20   0  947460 107552  16304 S   1,7 11,3   0:55.63 geth                                                   
+ 1733 pi        20   0   35544   1732   1584 S   0,7  0,2   0:18.73 lora_pkt_fwd                                           
+ 1740 pi        20   0    2428   1764   1664 S   0,0  0,2   0:00.16 lora_proxy                                             
+
+
